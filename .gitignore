@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.vite/
+.venv/
+.DS_Store
+*.log
+
+# Research-only material must stay outside the public project-page history.
+video/original/
+metadata/raw/
+metadata/video_manifest.csv
+reports/
+

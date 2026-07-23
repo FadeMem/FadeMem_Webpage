@@ -1,0 +1,20 @@
+{
+  "name": "fademem-project-page",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && node scripts/prune_deploy_assets.mjs",
+    "preview": "vite preview",
+    "validate": "node scripts/validate_deploy.mjs"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "lucide-react": "latest",
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {}
+}
