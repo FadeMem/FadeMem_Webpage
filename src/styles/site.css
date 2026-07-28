@@ -101,6 +101,7 @@ th { color: var(--muted); font-weight: 700; }
 .result-duration__heading h3 { margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: 30px; letter-spacing: 0; }
 .result-duration__heading p { margin: 0; max-width: 720px; color: var(--muted); font-size: 14px; line-height: 1.6; }
 .result-grid { display: grid; grid-template-columns: repeat(var(--result-columns, 2), minmax(0, 1fr)); gap: 18px; }
+.result-grid[data-columns="1"] { width: min(100%, 900px); margin-inline: auto; }
 .result-card { position: relative; z-index: 1; min-width: 0; background: var(--paper); border: 1px solid var(--line); border-radius: 6px; overflow: hidden; box-shadow: 0 5px 18px rgba(17,24,32,.06); transition: transform 300ms ease, box-shadow 300ms ease; }
 .result-card:hover, .result-card:focus-within { z-index: 5; transform: scale(1.05); box-shadow: 0 12px 28px rgba(17,24,32,.2); }
 .result-card:focus-visible { outline: 3px solid rgba(13,104,107,.35); outline-offset: 3px; }
