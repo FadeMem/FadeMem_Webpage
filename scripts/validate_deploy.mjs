@@ -94,8 +94,8 @@ for (const relative of ['public/video/web', 'public/video/poster']) {
 
 const videoCount = [...referenced].filter((item) => item.endsWith('.mp4')).length
 const posterCount = [...referenced].filter((item) => item.endsWith('.jpg')).length
-if (videoCount !== 40 || posterCount !== 40) {
-  errors.push(`expected 40 videos and 40 posters, found ${videoCount} videos and ${posterCount} posters`)
+if (videoCount !== 39 || posterCount !== 39) {
+  errors.push(`expected 39 videos and 39 posters, found ${videoCount} videos and ${posterCount} posters`)
 }
 
 if (errors.length > 0) {

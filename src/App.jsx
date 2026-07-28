@@ -210,7 +210,7 @@ export default function App() {
 
         <section className="variants-section">
           <div className="section-inner">
-            <SectionHeading eyebrow="Training-Free vs. Light Fine-Tuning" title="The same memory mechanism, with or without fine-tuning" description="FadeMem-TF changes inference-time memory organization without additional training; FadeMem-FT applies light fine-tuning with the same mechanism." />
+            <SectionHeading eyebrow="Variant Comparison" title="FadeMem variants and LongLive" description="FadeMem-TF, FadeMem-FT, and LongLive are compared using the same prompt and 60-second duration." />
             <div className="variant-list">
               {tfFtCases.map((item) => (
                 <article className="variant-case" key={item.case_id}>

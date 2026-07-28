@@ -402,24 +402,6 @@
     ]
   },
   {
-    "case_id": "case166",
-    "prompt_id": 17,
-    "duration": 240,
-    "prompt": "A dynamic shot from behind a white vintage SUV with a black roof rack as it speeds up a steep dirt road surrounded by towering redwood trees on a rugged mountain slope. Dust kicks up from its tires, and the sunlight shines on the SUV, casting a warm glow over the scene. The dirt road curves gently into the distance, with no other vehicles in sight. The trees on either side are dense redwoods, with patches of greenery scattered throughout. The car navigates the curve with ease, making it seem as if it is on a thrilling drive through the rugged terrain. The dirt road is framed by steep hills and mountains, with a clear blue sky above and wispy clouds drifting by. The camera captures the vehicle from the rear, emphasizing its powerful and adventurous journey.",
-    "display_type": "ours_only",
-    "hero": false,
-    "summary": "The white vintage SUV and black roof rack remain stable over a continuous four-minute mountain drive.",
-    "videos": [
-      {
-        "display_name": "Ours",
-        "method_family": "FadeMem",
-        "method_variant": "FT",
-        "file": "video/web/prompt017_case166_fademem_ft_240s.mp4",
-        "poster": "video/poster/prompt017_case166_fademem_ft_240s.jpg"
-      }
-    ]
-  },
-  {
     "case_id": "case167",
     "prompt_id": 18,
     "duration": 240,
