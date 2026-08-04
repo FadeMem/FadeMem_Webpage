@@ -7,7 +7,7 @@ export const siteConfig = {
   venue: '',
   links: {
     paper: 'https://arxiv.org/abs/2606.10671',
-    code: '',
+    code: 'https://github.com/aniki-ly/FadeMem',
     model: '',
     demo: '#results',
   },
