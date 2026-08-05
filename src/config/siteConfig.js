@@ -8,7 +8,7 @@ export const siteConfig = {
   links: {
     paper: 'https://arxiv.org/abs/2606.10671',
     code: 'https://github.com/aniki-ly/FadeMem',
-    model: '',
+    model: 'https://huggingface.co/sanity2025/FadeMem-FT',
     demo: '#results',
   },
   abstract: [
